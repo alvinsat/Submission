@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc4744046b975e4f97bf8476efe2c60, type: 3}
+  m_Name: Submission_LevelUpInfo_Player
+  m_EditorClassIdentifier: 
+  levels:
+  - ids:
+      name: Myself
+      shortDesc: A lost hero
+    status:
+      hp: 10
+      dmg: 4
+      sukma: 10
+      rageTime: 0.2
+    maxCoinsToUp: 0
+  - ids:
+      name: Myself
+      shortDesc: A lost hero, who gets stronger
+    status:
+      hp: 30
+      dmg: 7
+      sukma: 12
+      rageTime: 0.5
+    maxCoinsToUp: 500
+  - ids:
+      name: Myself
+      shortDesc: A lost hero, who now finds his way
+    status:
+      hp: 50
+      dmg: 10
+      sukma: 15
+      rageTime: 0.8
+    maxCoinsToUp: 2000

@@ -1,0 +1,58 @@
+Hp bar UI
+Rage bar UI
+Sukma bar UI
+Coins menu UI
+Death game UI
+Main menu UI
+Upgrade sukma menu UI
+Player level menu UI
+
+Use delayed demage rather than animEvent
+
+Do replays to collects coins and to upgrade to get faster kills
+
+Pause all actor activity when sukma window appear
+
+Sukma power, player needs to press all buttons assigned accordingly, percentage kill will be based on how accurate player press the button
+
+Sukma power Big for more larger areas, upgrade using coins for greater demage. demage * total correct
+Sukma power Small for single enemies, upgrade using coins for greater demage. demage * total correct
+Sukma power Chaos for more larger areas , upgrade using coins for greater demage. demage * total correct
+
+Use coins to level up sukma
+Use coins to level up player
+
+Rage mode, demage doubled
+Rage mode time is hardcoded
+Rage text appear if activates
+Rage bar increases each time kills
+Auto turn on rage mode if bar full, until bar ends
+
+Get Hp and coins after kill
+can use environment trap to kill enemy
+
+activate trap by orienting something
+activate trap by turning on something
+
+Pause Hide/Unhide mouse
+
+Royalty free music
+
+Game is Arcade like where enemies spawn non stop on each level until boss came up
+Spawn enemies only if player is trigger with the spawner area, if exit do delay and repool all
+Repool all enemies type rather than hides it
+A level is open world only a camera screen wide
+
+Class for player data hp, dmg, sukma bar max, sukmas level, player current level 
+Scriptable object for sukma level up rule
+Scriptable object for enemy data, enemies status is based on spawner area
+
+Build Enemy from base Actor
+
+Build .exe
+
+[DEBUGGING]
+
+[DONE]
+Coins is saved in every death
+save, load, reset
